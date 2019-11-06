@@ -1,0 +1,154 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.hotel-info {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.org-info {
+    text-align: center;
+    margin: 15px;
+}
+
+.org-info-card {
+    box-shadow: 0PX 0PX 16px grey;
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.transparent-economy-index {
+    box-shadow: 0PX 0PX 16px grey;
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.hotel-info .name {
+}
+
+.hotel-info .location {
+}
+
+.hotel-rooms {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.hotel-roomtype-list-item {
+    border: 1px solid grey;
+    text-align: left;
+    margin: 15px;
+    box-shadow: 0PX 0PX 16px grey;
+}
+
+    .hotel-roomtype-list-item .image {
+        width: 50%;
+        display: inline-block;
+    }
+
+        .hotel-roomtype-list-item .image img {
+            width: 100%;
+        }
+
+    .hotel-roomtype-list-item .booking-btn {
+        float: right;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+
+    .hotel-roomtype-list-item .info {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+    }
+
+    .hotel-roomtype-list-item .name {
+        margin: 15px;
+    }
+
+
+.hotel-booking {
+    display: none;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.booking-confirmation {
+    display: none;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .hotel-booking input {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .hotel-booking button {
+        margin-top: 15px;
+    }
+
+
+.hotel-booking-roomtype {
+}
+
+.footer {
+    text-align: center;
+}
+
+    .footer img {
+    }
+
+
+.loader {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 105px;
+    top: 100px;
+}
+
+.laoder-message {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    top: 230px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loader-overlay {
+    display: none;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+}
+
+.loader img path {
+    fill: #ff0000;
+}

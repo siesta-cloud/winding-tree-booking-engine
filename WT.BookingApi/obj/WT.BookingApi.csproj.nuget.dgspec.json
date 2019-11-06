@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cduongt/WT.London2019/WT.BookingApi/WT.BookingApi.csproj": {}
+  },
+  "projects": {
+    "/Users/cduongt/WT.London2019/WT.BookingApi/WT.BookingApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cduongt/WT.London2019/WT.BookingApi/WT.BookingApi.csproj",
+        "projectName": "WT.BookingApi",
+        "projectPath": "/Users/cduongt/WT.London2019/WT.BookingApi/WT.BookingApi.csproj",
+        "packagesPath": "/Users/cduongt/.nuget/packages/",
+        "outputPath": "/Users/cduongt/WT.London2019/WT.BookingApi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/cduongt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Nethereum.Hex": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

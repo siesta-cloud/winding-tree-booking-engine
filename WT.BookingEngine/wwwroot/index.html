@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WT Booking Engine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker3.min.css”>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@0.19.0/dist/web3.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChlpeZ1nkpLXfN6r3Nx1SJFPpIVrn75Cg&callback=initMap"
+            async defer></script>
+
+    <script src="js/core.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="hotel-info">
+            <h1>Hotel Info</h1>
+
+        </div>
+        <h1>Transparent Economy</h1>
+        <div class="transparent-economy-index">
+
+        </div>
+        <div class="org-info">
+            <h1>ORG ID</h1>
+            <div class="org-info-card"></div>
+        </div>
+        <div class="hotel-rooms">
+            <h1>Hotel Rooms</h1>
+        </div>
+
+        <div class="hotel-booking">
+            <h1>Booking Form</h1>
+            <h2>Selected Room</h2>
+            <div class="hotel-booking-roomtype">
+
+            </div>
+            <h2>Booking Details</h2>
+            <input id="first-name" type="text" placeholder="First Name" />
+            <input id="last-name" type="text" placeholder="Last Name" />
+            <input id="email" type="text" placeholder="Email Name" />
+            <button type="button" class="btn btn-info booking-submit-btn">Book</button>
+        </div>
+        <div class="booking-confirmation">
+            <h1>Your booking is confirmed!</h1>
+            <h2>Booked Room</h2>
+            <div class="confirmation-booking-roomtype">
+
+            </div>
+            <h2>Booking Detail</h2>
+            <div class="confirmation-booking-reservation"></div>
+        </div>
+    </div>
+    <div class="footer"><img src="img/wt-logo.svg" /></div>
+    <div class="loader-overlay">
+        <div class="loader"><img src="img/loader.svg" /></div>
+        <div class="laoder-message">Transaction in progress...</div>
+    </div>
+</body>
+</html>
